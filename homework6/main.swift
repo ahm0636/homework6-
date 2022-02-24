@@ -19,6 +19,7 @@ struct queue<T> {
     var isEmpty: Bool {
         return myElements.count == 0
     }
+    
 
     mutating func enqueue(element: T) {
         myElements.append(element)
